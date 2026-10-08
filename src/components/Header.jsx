@@ -30,8 +30,8 @@ const Header = () => {
                 </ul>
             </nav>
             <div className="mobNav">
-                호스팅하기
-                <Link to="/login"><span><FaUserCircle /></span></Link>
+                <span className="hosting">호스팅하기</span>
+                <span><Link to="/join"><FaRegUserCircle /></Link></span>
                 <span><GiHamburgerMenu /></span>
             </div>
         </div>

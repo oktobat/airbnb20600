@@ -12,7 +12,10 @@ const HeaderBlock = styled.header`
         align-items:center;
         h1 { font-size:50px; color:red }
         nav { .depth1 { display:flex; li {margin:0 10px} } }
-        .mobNav { span { padding:10px; background:#eee; border-radius:50%; font-size:25px; } }
+        .mobNav { 
+          span { padding:10px; background:#eee; border-radius:50%; font-size:25px; } 
+          .hosting { background:none; font-size:20px }
+        }
     }
 `
 
